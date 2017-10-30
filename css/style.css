@@ -5,6 +5,7 @@
   margin: 0;
   font-size: 100%;
   line-height: 1em;
+
 }
 
 body{
@@ -19,11 +20,20 @@ body{
   line-height: 1.8;
   overflow-x: hidden;
   overflow-y: ;
+
 }
 
 @font-face {
-  font-family: 'Lines';
-  src:url('../fonts/LINES-Regular.ttf') format('truetype');
+    font-family: 'linesregular';
+    src: url('lines-regular-webfont.eot');
+    src: url('lines-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lines-regular-webfont.woff2') format('woff2'),
+         url('lines-regular-webfont.woff') format('woff'),
+         url('lines-regular-webfont.otf') format('opentype'),
+         url('lines-regular-webfont.svg#linesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 ::-webkit-scrollbar {
@@ -37,7 +47,6 @@ article.nav {
   height: 3.5vh;
   bottom: 2vh;
   text-align: center;
-  position: fixed;
 }
 
 ul.nav {
@@ -90,65 +99,73 @@ nav a:hover{
 article.background {
   background: url(../images/background.jpg);
   background-size: 100vw;
+  z-index: -1;
 }
 
 article.one {
   width: 100vw;
   height: 100vh;
-  background: url(../images/neptune.png) no-repeat 60vw center;
-  background-size: 35vw;
+  background: url(../images/neptune.png) no-repeat 65vw center;
+  background-size: 30vw;
+  z-index: -1;
 }
 
 article.two {
   height: 100vh;
   width: 100vw;
-  background: url(../images/uranus.png) no-repeat 60vw center;
-  background-size: 35vw;
+  background: url(../images/uranus.png) no-repeat 65vw center;
+  background-size: 30vw;
+  z-index: -1;
 
 }
 
 article.three {
   height: 100vh;
   width: 100vw;
-  background: url(../images/saturn.png) no-repeat 60vw center;
+  background: url(../images/saturn.png) no-repeat 65vw center;
   background-size: cover;
-  background-size: 35vw;
+  background-size: 30vw;
+  z-index: -1;
 
 }
 
 article.four {
   height: 100vh;
   width: 100vw;
-  background: url(../images/jupiter.png) no-repeat 60vw center;
+  background: url(../images/jupiter.png) no-repeat 65vw center;
   background-size: cover;
-  background-size: 35vw;
+  background-size: 30vw;
+  z-index: -1;
 
 }
 
 article.five {
   height: 100vh;
   width: 100vw;
-  background: url(../images/mercury.png) no-repeat 60vw center;
+  background: url(../images/mercury.png) no-repeat 65vw center;
   background-size: cover;
-  background-size: 35vw;
+  background-size: 30vw;
+  z-index: -1;
 
 }
 
 article.six {
   height: 100vh;
   width: 100vw;
-  background: url(../images/venus.png) no-repeat 60vw center;
+  background: url(../images/venus.png) no-repeat 65vw center;
   background-size: cover;
-  background-size: 35vw;
+  background-size: 30vw;
+  z-index: -1;
 
 }
 
 article.seven {
   height: 100vh;
   width: 100vw;
-  background: url(../images/mars.png) no-repeat 60vw center;
+  background: url(../images/mars.png) no-repeat 65vw center;
   background-size: cover;
-  background-size: 35vw;
+  background-size: 30vw;
+  z-index: -1;
 
 }
 
@@ -159,4 +176,48 @@ article.eight {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+  z-index: -1;
+}
+
+div.title {
+  width: 40vw;
+  height: auto;
+  margin-left: 60vw;
+  padding-top: 3vh;
+}
+
+h2 {
+  font-family: 'Lines';
+  font-size: 9vw;
+  line-height: 15vh;
+  color: white;
+}
+
+div.rocket {
+  position: absolute;
+  z-index: 10;
+  width: 40vw;
+  height: 70vh;
+  margin-left: 13vw;
+  padding-top: 20vh;
+}
+
+img.rocket {
+  height: 70vh;
+  width: auto;
+  display: ;
+  z-index: 10;
+}
+
+div.astro {
+  position: absolute;
+  z-index: 10;
+  margin-left: 32vw;
+  padding-top: 60vh;
+}
+
+img.astro {
+  height: 30vh;
+  width: auto;
+  z-index: 10;
 }
