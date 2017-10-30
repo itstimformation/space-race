@@ -1,0 +1,162 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Open Sans','Arial', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-color: #ffffff;*/
+  /*background-color: #fafafa;*/
+  color: #333;
+  line-height: 1.8;
+  overflow-x: hidden;
+  overflow-y: ;
+}
+
+@font-face {
+  font-family: 'Lines';
+  src:url('../fonts/LINES-Regular.ttf') format('truetype');
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+article.nav {
+  background-color: white;
+  width: 100vw;
+  height: 3.5vh;
+  bottom: 2vh;
+  text-align: center;
+  position: fixed;
+}
+
+ul.nav {
+  text-align: center;
+  width: 100vw;
+}
+
+nav ul {
+  display: inline;
+  text-align: center;
+  background-color: #d0d6e0;
+  opacity: .7;
+  position: fixed;
+  bottom: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  vertical-align: middle;
+  font-family: 'Open Sans Light';
+  font-size: 1.9vh;
+  text-transform: uppercase;
+}
+
+nav img {
+  width: auto;
+  height: 3vh;
+  padding-top: .7vh;
+  padding-bottom: .7vh;
+}
+
+nav img:hover {
+  opacity: .6;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #a6a6a6;
+}
+
+
+article.background {
+  background: url(../images/background.jpg);
+  background-size: 100vw;
+}
+
+article.one {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/neptune.png) no-repeat 60vw center;
+  background-size: 35vw;
+}
+
+article.two {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/uranus.png) no-repeat 60vw center;
+  background-size: 35vw;
+
+}
+
+article.three {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/saturn.png) no-repeat 60vw center;
+  background-size: cover;
+  background-size: 35vw;
+
+}
+
+article.four {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/jupiter.png) no-repeat 60vw center;
+  background-size: cover;
+  background-size: 35vw;
+
+}
+
+article.five {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/mercury.png) no-repeat 60vw center;
+  background-size: cover;
+  background-size: 35vw;
+
+}
+
+article.six {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/venus.png) no-repeat 60vw center;
+  background-size: cover;
+  background-size: 35vw;
+
+}
+
+article.seven {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/mars.png) no-repeat 60vw center;
+  background-size: cover;
+  background-size: 35vw;
+
+}
+
+article.eight {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/earth-flat.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
