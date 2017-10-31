@@ -221,3 +221,73 @@ img.astro {
   width: auto;
   z-index: 10;
 }
+
+article.mars {
+  margin-left: 40vw;
+  padding-top: 30vh;
+}
+
+img.mars {
+  height: 45vh;
+  width: auto;
+}
+
+article.venus {
+  margin-left: 50vw;
+  padding-top: 30vh;
+}
+
+img.venus {
+  height: 50vh;
+  width: auto;
+}
+
+article.mercury {
+  margin-left: 40vw;
+  padding-top: 30vh;
+}
+
+img.mercury {
+  height: 45vh;
+  width: auto;
+}
+
+article.jupiter {
+  margin-left: 35vw;
+  padding-top: 40vh;
+}
+
+img.jupiter {
+  height: auto;
+  width: 25vw;
+}
+
+article.saturn {
+  margin-left: 35vw;
+  padding-top: 33vh;
+}
+
+img.saturn {
+  height: 35vh;
+  width: auto;
+}
+
+article.uranus {
+  margin-left: 35vw;
+  padding-top: 35vh;
+}
+
+img.uranus {
+  height: 40vh;
+  width: auto;
+}
+
+article.neptune {
+  margin-left: 40vw;
+  padding-top: 30vh;
+}
+
+img.neptune {
+  height: 45vh;
+  width: auto;
+}
