@@ -184,14 +184,14 @@ article.eight {
 div.earth {
   width: 100vw;
   height: auto;
-  position: relative;
+  position: ;
 }
 
 img.earth {
   width: 100vw;
   height: auto;
   position: relative;
-  bottom: -1vh;
+  bottom: -5vh;
 }
 
 div.title {
@@ -208,20 +208,21 @@ h2 {
   color: white;
 }
 
-div.rocket {
-  position: ;
-  width: 40vw;
-  height: 70vh;
-  margin-left: 13vw;
-  padding-top: 20vh;
-  z-index: 3;
+article.rocket {
+  position: sticky;
+  width: auto;
+  height: auto%;
+  padding-left: ;
+  padding-top: ;
+  z-index: ;
 }
 
 img.rocket {
-  position: sticky;
+  position:  fixed;
   height: 70vh;
   width: auto;
-  display: ;
+  padding-left: 11vw;
+  padding-top: 23vh;
   z-index: 7;
 }
 
