@@ -47,6 +47,7 @@ article.nav {
   height: 3.5vh;
   bottom: 2vh;
   text-align: center;
+  z-index: 10;
 }
 
 ul.nav {
@@ -172,11 +173,23 @@ article.seven {
 article.eight {
   height: 100vh;
   width: 100vw;
-  background: url(../images/earth-flat.png);
+  /*background: url(../images/earth-flat.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom;*/
   z-index: -1;
+}
+
+div.earth {
+  width: 100vw;
+  height: 10vh;
+}
+
+img.earth {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  bottom: 0;
 }
 
 div.title {
@@ -187,7 +200,7 @@ div.title {
 }
 
 h2 {
-  font-family: 'Lines';
+  font-family: 'Lines', sans-serif;
   font-size: 9vw;
   line-height: 15vh;
   color: white;
