@@ -53,6 +53,7 @@ article.nav {
 ul.nav {
   text-align: center;
   width: 100vw;
+  z-index: 10;
 }
 
 nav ul {
@@ -182,14 +183,15 @@ article.eight {
 
 div.earth {
   width: 100vw;
-  height: 10vh;
+  height: auto;
+  position: relative;
 }
 
 img.earth {
   width: 100vw;
   height: auto;
   position: relative;
-  bottom: 0;
+  bottom: -1vh;
 }
 
 div.title {
@@ -207,24 +209,25 @@ h2 {
 }
 
 div.rocket {
-  position: absolute;
-  z-index: 10;
+  position: ;
   width: 40vw;
   height: 70vh;
   margin-left: 13vw;
   padding-top: 20vh;
+  z-index: 3;
 }
 
 img.rocket {
+  position: sticky;
   height: 70vh;
   width: auto;
   display: ;
-  z-index: 10;
+  z-index: 7;
 }
 
 div.astro {
   position: absolute;
-  z-index: 10;
+  z-index: 3;
   margin-left: 32vw;
   padding-top: 60vh;
 }
@@ -232,7 +235,7 @@ div.astro {
 img.astro {
   height: 30vh;
   width: auto;
-  z-index: 10;
+  z-index: 3;
 }
 
 article.mars {
