@@ -100,7 +100,7 @@ nav a:hover{
 
 article.background {
   background: url(../images/background.jpg);
-  background-size: 100vw;
+  background-size: cover;
   z-index: -1;
 }
 
@@ -183,15 +183,17 @@ article.eight {
 
 div.earth {
   width: 100vw;
-  height: auto;
+  height: 22vh;
   position: ;
+  overflow-y: hidden;
 }
 
 img.earth {
   width: 100vw;
   height: auto;
   position: relative;
-  bottom: -5vh;
+  bottom: vh;
+  overflow-y: hidden;
 }
 
 div.title {
@@ -222,7 +224,7 @@ img.rocket {
   height: 70vh;
   width: auto;
   padding-left: 11vw;
-  padding-top: 23vh;
+  padding-top: 16vh;
   z-index: 7;
 }
 
@@ -230,7 +232,7 @@ div.astro {
   position: absolute;
   z-index: 3;
   margin-left: 32vw;
-  padding-top: 60vh;
+  padding-top: 56vh;
 }
 
 img.astro {
@@ -241,7 +243,7 @@ img.astro {
 
 article.mars {
   margin-left: 40vw;
-  padding-top: 30vh;
+  padding-top: 40vh;
 }
 
 img.mars {
@@ -261,7 +263,7 @@ img.venus {
 
 article.mercury {
   margin-left: 40vw;
-  padding-top: 30vh;
+  padding-top: 35vh;
 }
 
 img.mercury {
@@ -271,7 +273,7 @@ img.mercury {
 
 article.jupiter {
   margin-left: 35vw;
-  padding-top: 40vh;
+  padding-top: 50vh;
 }
 
 img.jupiter {
@@ -281,7 +283,7 @@ img.jupiter {
 
 article.saturn {
   margin-left: 35vw;
-  padding-top: 33vh;
+  padding-top: 40vh;
 }
 
 img.saturn {
@@ -291,7 +293,7 @@ img.saturn {
 
 article.uranus {
   margin-left: 35vw;
-  padding-top: 35vh;
+  padding-top: 40vh;
 }
 
 img.uranus {
@@ -307,4 +309,99 @@ article.neptune {
 img.neptune {
   height: 45vh;
   width: auto;
+}
+
+article.download-bg {
+  /*background: url(../images/background.jpg);
+  background-size: cover;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+article.download {
+  margin-left: 40vw;
+  padding-top: 20vh;
+  position: absolute;
+}
+
+h3 {
+  font-family: 'Lines';
+  color: #333333;
+  font-size: 5vw;
+}
+
+p {
+  font-family: 'Open Sans Light';
+  color: #a6a6a6;
+  font-size: 1.5vw;
+  padding-top: 2.5vh;
+  line-height: 3.5vh;
+  width: 30vw;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-family: 'Open Sans Light';
+    margin-top: 5vh;
+}
+
+.button:hover {
+  background-color: #a6a6a6;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.donate-button img{
+  margin-top: 3vh;
+  display: inline-block;
+  width: 2vw;
+  height: auto;
+}
+
+.donate-button-2 {
+  display: inline-block;
+  width: 7.85vw;
+  height: auto;
+}
+
+article.licence {
+  width: 100vw;
+  text-align: center;
+}
+
+p.licence {
+  opacity: .7;
+  position: absolute;
+  bottom: 1vh;
+  width: 100vw;
+  font-size: 1vw;
+}
+
+.link {
+  color: #a6a6a6;
+  text-decoration: underline;
+}
+
+.link:hover {
+  opacity: .5;
+}
+
+img.dl-rocket {
+  position:  fixed;
+  height: 70vh;
+  width: auto;
+  padding-left: 20vw;
+  padding-top: 16vh;
+  z-index: 7;
 }
