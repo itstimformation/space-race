@@ -376,6 +376,10 @@ a {
   height: auto;
 }
 
+.donate-button-2:hover {
+  opacity: .6;
+}
+
 article.licence {
   width: 100vw;
   text-align: center;
