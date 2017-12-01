@@ -44,7 +44,7 @@ body{
 article.nav {
   background-color: white;
   width: 100vw;
-  height: 3.5vh;
+  height: 5vh;
   bottom: 2vh;
   text-align: center;
   z-index: 10;
@@ -60,7 +60,7 @@ nav ul {
   display: inline;
   text-align: center;
   background-color: #d0d6e0;
-  opacity: .7;
+  opacity: .8;
   position: fixed;
   bottom: 0;
 }
@@ -68,17 +68,18 @@ nav ul {
 nav li {
   display: inline-block;
   text-align: center;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
   vertical-align: middle;
-  font-family: 'Open Sans Light';
-  font-size: 1.9vh;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 2.3vh;
   text-transform: uppercase;
 }
 
 nav img {
   width: auto;
-  height: 3vh;
+  height: 4vh;
   padding-top: .7vh;
   padding-bottom: .7vh;
 }
