@@ -102,7 +102,7 @@ nav a:hover{
 article.background {
   background: url(../images/background.jpg);
   background-size: cover;
-  z-index: -1;
+  z-index: -2;
 }
 
 article.one {
@@ -182,6 +182,16 @@ article.eight {
   z-index: -1;
 }
 
+article.intro {
+  height: 100vh;
+  width: 100vw;
+  /*background: url(../images/earth-flat.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;*/
+  z-index: -1;
+}
+
 div.earth {
   width: 100vw;
   height: 22vh;
@@ -251,6 +261,17 @@ article.mars {
 img.mars {
   height: 45vh;
   width: auto;
+  text-align: center;
+  margin-top: -25vh;
+}
+
+h4.mars {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 42vw;
+  padding-top: 10vh;
 }
 
 article.venus {
@@ -261,6 +282,16 @@ article.venus {
 img.venus {
   height: 50vh;
   width: auto;
+  margin-top: -15vh;
+}
+
+h4.venus {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 42vw;
+  padding-top: 10vh;
 }
 
 article.mercury {
@@ -271,6 +302,16 @@ article.mercury {
 img.mercury {
   height: 45vh;
   width: auto;
+  margin-top: -20vh;
+}
+
+h4.mercury {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 40vw;
+  padding-top: 10vh;
 }
 
 article.jupiter {
@@ -281,6 +322,16 @@ article.jupiter {
 img.jupiter {
   height: auto;
   width: 25vw;
+  margin-top: -20vh;
+}
+
+h4.jupiter {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 42vw;
+  padding-top: 10vh;
 }
 
 article.saturn {
@@ -291,6 +342,16 @@ article.saturn {
 img.saturn {
   height: 35vh;
   width: auto;
+  margin-top: -25vh;
+}
+
+h4.saturn {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 42vw;
+  padding-top: 10vh;
 }
 
 article.uranus {
@@ -301,6 +362,16 @@ article.uranus {
 img.uranus {
   height: 40vh;
   width: auto;
+  margin-top: -20vh;
+}
+
+h4.uranus {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 42vw;
+  padding-top: 10vh;
 }
 
 article.neptune {
@@ -311,6 +382,16 @@ article.neptune {
 img.neptune {
   height: 45vh;
   width: auto;
+  margin-top: -15vh;
+}
+
+h4.neptune {
+  font-family: 'Lines';
+  font-weight: lighter;
+  color: white;
+  font-size: 5vw;
+  margin-left: 42vw;
+  padding-top: 10vh;
 }
 
 article.download-bg {
@@ -416,4 +497,15 @@ img.dl-rocket {
 
 a.link {
 
+}
+
+article.intro-content {
+  margin-left: 50vw;
+  width: 40vw;
+}
+
+p.intro {
+  font-size: 3vw;
+  line-height: 6.5vh;
+  width: 40vw;
 }
