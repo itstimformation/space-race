@@ -254,7 +254,7 @@ img.astro {
 }
 
 article.mars {
-  margin-left: 40vw;
+  margin-left: 35vw;
   padding-top: 40vh;
 }
 
@@ -262,7 +262,6 @@ img.mars {
   height: 45vh;
   width: auto;
   text-align: center;
-  margin-top: -25vh;
 }
 
 h4.mars {
@@ -272,6 +271,72 @@ h4.mars {
   font-size: 5vw;
   margin-left: 42vw;
   padding-top: 10vh;
+}
+
+#container {
+	margin: 100px;
+	float: left;
+	height: 0;
+	width: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  background-color: ;
+  z-index: -9;
+}
+
+div.hoverbubble-mars {
+  position: relative;
+  text-decoration: none;
+  width:50px;
+  height:50px;
+  margin-top: -30vh;
+}
+
+div.hoverbubble-mars img {
+  height: 45vh;
+  width: auto;
+  text-align: center;
+  margin-top: -5vh;
+}
+
+div.hoverbubble-mars span {display: none;}
+
+div.hoverbubble-mars:hover span {
+	display: block;
+	position: absolute;
+	padding: .5em;
+	content: attr(title);
+	min-width: px;
+	text-align: center;
+	width: auto;
+	height: auto;
+	white-space: nowrap;
+	top: -13vh;
+  margin-left: 2vw;
+	background-color: rgba(255, 255, 255, 0.7);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #333333;
+	font-size: 1vw;
+  line-height: 2.5vh;
+	font-family: 'Open Sans Light',Arial, Helvetica, sans-serif;
+}
+
+div.hoverbubble-mars:hover span:after {
+	position: absolute;
+	display: block;
+	content: "";
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+  opacity: .7;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: -20px;
+	left: 1em;
 }
 
 article.venus {
@@ -294,6 +359,73 @@ h4.venus {
   padding-top: 10vh;
 }
 
+#container {
+	margin: 100px;
+	float: left;
+	height: 0;
+	width: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  background-color: ;
+  z-index: -9;
+}
+
+div.hoverbubble-venus {
+  position: relative;
+  text-decoration: none;
+  width:50px;
+  height:50px;
+  margin-top: -30vh;
+}
+
+div.hoverbubble-venus img {
+  height: 45vh;
+  width: auto;
+  text-align: center;
+  margin-top: 4vh;
+  margin-left: -10vw;
+}
+
+div.hoverbubble-venus span {display: none;}
+
+div.hoverbubble-venus:hover span {
+	display: block;
+	position: absolute;
+	padding: .5em;
+	content: attr(title);
+	min-width: px;
+	text-align: center;
+	width: auto;
+	height: auto;
+	white-space: nowrap;
+	top: -6vh;
+  margin-left: -10vw;
+	background-color: rgba(255, 255, 255, 0.7);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #333333;
+	font-size: 1vw;
+  line-height: 2.5vh;
+	font-family: 'Open Sans Light',Arial, Helvetica, sans-serif;
+}
+
+div.hoverbubble-venus:hover span:after {
+	position: absolute;
+	display: block;
+	content: "";
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+  opacity: .7;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: -20px;
+	left: 1em;
+}
+
 article.mercury {
   margin-left: 40vw;
   padding-top: 35vh;
@@ -312,6 +444,73 @@ h4.mercury {
   font-size: 5vw;
   margin-left: 40vw;
   padding-top: 10vh;
+}
+
+#container {
+	margin: 100px;
+	float: left;
+	height: 0;
+	width: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  background-color: ;
+  z-index: -9;
+}
+
+div.hoverbubble-mercury {
+  position: relative;
+  text-decoration: none;
+  width:50px;
+  height:50px;
+  margin-top: -30vh;
+}
+
+div.hoverbubble-mercury img {
+  height: 45vh;
+  width: auto;
+  text-align: center;
+  margin-top: 4vh;
+  margin-left: -5vw;
+}
+
+div.hoverbubble-mercury span {display: none;}
+
+div.hoverbubble-mercury:hover span {
+	display: block;
+	position: absolute;
+	padding: .5em;
+	content: attr(title);
+	min-width: px;
+	text-align: center;
+	width: auto;
+	height: auto;
+	white-space: nowrap;
+	top: -8vh;
+  margin-left: -5vw;
+	background-color: rgba(255, 255, 255, 0.7);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #333333;
+	font-size: 1vw;
+  line-height: 2.5vh;
+	font-family: 'Open Sans Light',Arial, Helvetica, sans-serif;
+}
+
+div.hoverbubble-mercury:hover span:after {
+	position: absolute;
+	display: block;
+	content: "";
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+  opacity: .7;
+	border-width: 10px;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: -20px;
+	left: 1em;
 }
 
 article.jupiter {
